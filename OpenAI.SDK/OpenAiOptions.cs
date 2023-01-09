@@ -20,7 +20,8 @@
         ///     apps). Production requests must be routed through your own backend server where your API key can be securely loaded
         ///     from an environment variable or key management service.
         /// </summary>
-        public string ApiKey { get; set; } = null!;
+
+        public string ApiKey { get; set; } = "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";
 
         public string ApiVersion { get; set; } = "v1";
 
